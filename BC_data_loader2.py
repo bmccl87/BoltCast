@@ -35,24 +35,6 @@ def load_data(rotation=0,
      
      return tf_train, tf_val,tf_test
 
-def load_static_data(rotation=0,
-            f_hour='f000',
-            base_dir='/scratch/bmac87/dataset/'):
-
-     pass
-
-def load_static_pres_data(rotation=0,
-            f_hour='f000',
-            base_dir='/scratch/bmac87/dataset/'):
-     pass
-
-def load_static_atm_data(rotation=0,
-            f_hour='f000',
-            base_dir='/scratch/bmac87/dataset/'):
-     pass
-
-
-
 def load_test_data(rotation=0,
             f_hour='f000',
             base_dir='/scratch/bmac87/dataset/'):

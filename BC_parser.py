@@ -83,11 +83,5 @@ def create_parser():
     parser.add_argument('--save_model', action='store_true', default=True, help='Save a model file')
     parser.add_argument('--no-save_model', action='store_false', dest='save_model', help='Do not save a model file')
 
-    #ablation study
-    parser.add_argument('--static',action='store_true',default=False,help='Train the model only on the static parameters.')
-    parser.add_argument('--static_pres',action='store_true',default=False,help='Train the model on the pressure level parameters and static inputs.')
-    parser.add_argument('--static_atm',action='store_true',default=False,help='Train the model on the atmospheric variables and static inputs.')
-
-
     return parser
 
