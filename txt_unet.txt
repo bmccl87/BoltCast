@@ -1,0 +1,14 @@
+--conv_nfilters
+32
+64
+128
+256
+--activation_conv=relu
+--n_conv_per_step=3
+--padding=same
+--stride=1
+--conv_size=16
+--deep=3
+--pool=2
+--lrate=.00001
+--skip

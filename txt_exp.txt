@@ -1,0 +1,14 @@
+--batch=16
+--render
+--load_data
+--build_model
+--gpu
+--project=BoltCast
+--save_model
+--early_stopping
+--min_delta=.00001
+--spatial_dropout=0
+--patience=50
+--epochs=500
+--force
+-vvv
