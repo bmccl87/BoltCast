@@ -1,0 +1,12 @@
+--epochs=500
+--lrate=.00001
+--loss=binary_cross_entropy
+--dropout=0.0
+--L2_reg=0.0
+--early_stopping
+--min_delta=.00001
+--patience=10
+--monitor=val_loss
+--batch=16
+--cache=""
+--shuffle=0

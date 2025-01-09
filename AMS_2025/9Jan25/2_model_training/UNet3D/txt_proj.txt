@@ -1,0 +1,17 @@
+--project=BoltCast_UNet
+-vvv
+--load_data
+--build_model
+--exp=1
+--cpus_per_task=10
+--gpu
+--image_size
+4
+128
+256
+9
+--results_path=/scratch/bmac87/BoltCast_scratch/results/UNet/all_rots/
+--ckpt_path=/scratch/bmac87/BoltCast_scratch/model_ckpts/UNet/all_rots/
+--save_model
+--force
+--label=binary_batch_32_symmetric_h100

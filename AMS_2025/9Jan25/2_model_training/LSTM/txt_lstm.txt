@@ -1,0 +1,10 @@
+--conv_deep=2
+--conv_size=4
+--lstm_deep=1
+--pool=2
+--stride=1
+--padding=same
+--activation_conv=relu
+--activation_last=sigmoid
+--return_sequences
+--return_state

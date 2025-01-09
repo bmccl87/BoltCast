@@ -1,0 +1,17 @@
+--project=BoltCast_LSTM
+-vvv
+--load_data
+--build_model
+--cpus_per_task=10
+--gpu
+--image_size
+4
+128
+256
+9
+--data_path=/scratch/bmac87/BoltCast_scratch/data/binary/
+--results_path=/scratch/bmac87/BoltCast_scratch/results/Conv2DLSTM/all_rot/
+--ckpt_path=/scratch/bmac87/BoltCast_scratch/model_ckpts/Conv2DLSTM/all_rot/
+--save_model
+--force
+--label=binary_batch_32
